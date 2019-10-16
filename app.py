@@ -9,7 +9,7 @@ db = client.dbsparta
 # 이 문자열은 서버만 알고있기 때문에, 내 서버에서만 토큰을 인코딩(=만들기)/디코딩(=풀기) 할 수 있습니다.
 SECRET_KEY = 'apple'
 
-# JWT 패키지를 사용합니다.
+# JWT 패키지를 사용합니다. (설치해야할 패키지 이름: PyJWT)
 import jwt
 
 # 토큰에 만료시간을 줘야하기 때문에, datetime 모듈도 사용합니다.
